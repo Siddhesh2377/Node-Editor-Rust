@@ -24,7 +24,7 @@ jobs:
       run: mkdir -p build
 
     - name: Copy binary to build folder
-      run: cp target/release/your_binary_name build/
+      run: cp target/release/untitled1 
 
     - name: Make run script executable
       run: chmod +x run.sh
